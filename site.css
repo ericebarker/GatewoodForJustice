@@ -1,0 +1,37 @@
+header {
+    background-color: blue;
+    background-image: url(img/blue-gradient.jpeg);
+}
+
+footer {
+    background-color: blue;
+    background-image: url(img/blue-gradient.jpeg);
+    color: yellow;
+    text-align: center;
+}
+article.main-content {
+    margin: 2em;
+}
+section.main {
+    color: blue;
+}
+
+img.header-photo {
+    max-width: 30%;
+}
+img.header-title {
+    max-width: 65%;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+@media (min-width: 550px){
+    img.header-photo {
+        width: 150px;
+    }
+    img.header-title {
+        width: 650px;
+    }
+}
