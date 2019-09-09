@@ -26,12 +26,3 @@ img.header-title {
 li {
     margin-bottom: 1em;
 }
-
-@media (min-width: 550px){
-    img.header-photo {
-        width: 150px;
-    }
-    img.header-title {
-        width: 650px;
-    }
-}
