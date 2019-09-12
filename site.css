@@ -19,7 +19,7 @@ section.main {
 }
 
 img.header-photo {
-    max-width: 30%;
+    max-width: 165px;
 }
 img.header-title {
     max-width: 65%;
@@ -27,10 +27,10 @@ img.header-title {
 img.header-slogan {
     right: 0%;
     position: absolute;
-    max-width: 80%;
+    max-width: 550px;
 }
 
-.page li {
+.main-content li {
     margin-bottom: 1em;
 }
 
@@ -85,4 +85,14 @@ img.header-slogan {
     .nav-menu {
         display: none;
     }
+    img.header-photo {
+        max-width: 20%;
+    }
+    img.header-title {
+        max-width: 65%;
+    }
+    img.header-slogan {
+        max-width: 80%;
+    }
+    
 }
