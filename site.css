@@ -1,12 +1,12 @@
 header {
-    background-color: midnightblue;
+    background-color: blue;
     background-image: url(img/blue-gradient.jpeg);
 }
 body {
     overflow-x: hidden;
 }
 footer {
-    background-color: blue;
+    background-color: midnightblue;
     background-image: url(img/blue-gradient.jpeg);
     color: yellow;
     text-align: center;
@@ -48,8 +48,12 @@ img.header-slogan {
     margin: 0 1em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #AFB2B9;
-    color: darkblue;
+    color: midnightblue;
     cursor: pointer;    
+}
+
+.hamburger-menu {
+    display: none;
 }
 
 .hidden {
@@ -82,8 +86,28 @@ img.header-slogan {
 }
 
 @media screen and (max-width: 550px){
+    body {
+        margin-bottom:110px;
+    }
+
     .nav-menu {
-        display: none;
+        display: block;
+    position: fixed;
+    bottom: 0;
+    height: 110px;
+    padding: 0 0;
+    z-index: 9999;
+    border-top: 1px solid midnightblue;
+    }
+
+    .nav-button {
+        height: 45px;
+    font-size: 20px;
+    border: 1px solid midnightblue;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px;
     }
     img.header-photo {
         max-width: 20%;
@@ -94,5 +118,7 @@ img.header-slogan {
     img.header-slogan {
         max-width: 80%;
     }
-    
+    .hamburger-menu {
+        display: inline-block;
+    }
 }
