@@ -12,8 +12,15 @@ footer {
     text-align: center;
 }
 article {
-    margin: 2em;
+    margin: 2em auto;
+    max-width: 650px;
 }
+.header-content,
+.nav-container  {
+    margin: 0 auto;
+    max-width: 650px;
+}
+
 section.main {
     color: blue;
 }
