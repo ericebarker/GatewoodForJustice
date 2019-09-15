@@ -1,6 +1,7 @@
 header {
     background-color: blue;
-    background: url(img/hkonjbanner.jpg) top center no-repeat;
+    /*background: url(img/hkonjbanner.jpg) top center no-repeat;*/
+    background-image: url(img/blue-gradient.jpeg);
     background-size: cover;
 }
 body {
