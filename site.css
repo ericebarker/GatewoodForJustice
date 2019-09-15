@@ -173,6 +173,10 @@ img.header-slogan {
     article {
         padding: 0 2em;
     }
+    
+     .contact-table .label {
+        min-width: initial;
+    }
 }
 
 @media screen and (min-width: 915px){
