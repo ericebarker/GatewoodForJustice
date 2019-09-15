@@ -30,8 +30,20 @@ var globalScript = (function(){
                     $(this).addClass('collapsed');
 
                 }
+                window.dataLayer.push({
+                    'event': 'MobileNavMenu-Clicked'
+                  });
             });
+
+            $('.header-slogan').css('top', window.innerHeight - 100);
         }
+
+        $('.header-slogan').on('click', function(){
+            window.open("https://www.facebook.com/GatewoodForJustice/");
+            window.dataLayer.push({
+                'event': 'FacebookLink-Clicked'
+              });
+        });
     }
 
     return {
