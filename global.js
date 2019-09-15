@@ -1,11 +1,15 @@
 var globalScript = (function(){
     function setUpNavigation() {
+        window.dataLayer = window.dataLayer || [];
+
         [].slice.call($('.nav-button')).map(function(button){
             $(button).on('click', function(){
                 var targetId = $(this).data('target');
-                console.log(targetId);
+                
+                window.dataLayer.push({
+                    'event': 'PageView-' + targetId
+                  });
                 var target = $('#' + targetId);
-                console.log(target);
                 [].slice.call($('article.page')).map(function(page){
                     if (page.id !== targetId){
                         $(page).addClass('hidden');
