@@ -36,9 +36,11 @@ img.header-title {
     max-width: 65%;
 }
 img.header-slogan {
-    right: 0%;
-    position: absolute;
-    max-width: 550px;
+    right: 3%;
+    position: fixed;
+    height: 50px;
+    top: 220px;
+    cursor: pointer;
 }
 
 .main-content li {
@@ -173,8 +175,8 @@ img.header-slogan {
     article {
         padding: 0 2em;
     }
-    
-     .contact-table .label {
+
+    .contact-table .label {
         min-width: initial;
     }
 }
