@@ -20,6 +20,18 @@ var globalScript = (function(){
             });
 
         });
+
+        if($('body').innerWidth() < 550){
+            $('.nav-menu').addClass('collapsed');
+            $('.nav-menu').on('click', function() {
+                if ($(this).hasClass('collapsed')){
+                    $(this).removeClass('collapsed');
+                }else{
+                    $(this).addClass('collapsed');
+
+                }
+            });
+        }
     }
 
     return {
