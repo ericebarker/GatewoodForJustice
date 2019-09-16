@@ -253,6 +253,9 @@ section p {
     .contact-table .label {
         min-width: initial;
     }
+    .about-nav-image, .about-sec-image, .about-sec-image.quarter {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 915px){
