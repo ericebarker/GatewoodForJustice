@@ -17,6 +17,7 @@ var globalScript = (function(){
                         $(target).removeClass('hidden');
                     }
                 });
+                document.body.scrollTop = document.documentElement.scrollTop = 0;
             });
 
         });
@@ -46,9 +47,19 @@ var globalScript = (function(){
         });
     }
 
+function setUpAboutPageNav() {
+    [].slice.call($('.about-nav-item')).map(function(nav){
+        var targetEl = document.getElementById($(nav).data('target'));
+        $(nav).on('click', function(){
+            targetEl.scrollIntoView();
+        });
+    });
+}
+
     return {
         init: function () {
         setUpNavigation();    
+        setUpAboutPageNav();
         }
     }
 })();
