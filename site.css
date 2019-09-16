@@ -98,6 +98,79 @@ img.header-slogan {
     width: 65%;
 }
 
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.sec-head {
+    font-size: 20px;
+}
+.about-nav {
+    margin: 20px 0;
+    border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+padding: 15px 0;
+display: inline-block;
+}
+.about-nav-links {
+width: 50%;
+display: inline-block;
+}
+.about-nav-image {
+    width: 50%;
+    float: right; 
+}
+.about-nav-image-content {
+    max-width: 100%;
+}
+.about-nav-list {
+    list-style: none;
+}
+.about-nav-item {
+    font-weight: bold;
+    font-size: 18px;
+    color: grey;
+    cursor: pointer;
+}
+.about-nav-item:hover {
+    text-decoration: underline;
+}
+
+.about-footer {
+    display: inline-block;
+}
+
+.about-sec-image {
+    max-width: 100%;
+    width: 55%;
+    float: right;
+    margin-top: 30px;
+}
+
+.about-sec-image.wide {
+    width: 100%;
+}
+.about-sec-image.quarter {
+    width: 40%;
+}
+
+.sub-header {
+    font-size: 1.15em;
+    font-weight: bold;
+    color: grey;
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+section p {
+    margin: 0 5%;
+}
+
 @media screen and (max-width: 550px){
     body {
         margin-bottom: 34px;
