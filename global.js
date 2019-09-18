@@ -8,7 +8,14 @@ var globalScript = (function(){
                 
                 window.dataLayer.push({
                     'event': 'PageView-' + targetId
-                  });
+                });
+                if ($(this).data('action') == 'donate'){
+                    window.dataLayer.push({
+                        'event': 'PageView-donate'
+                    }); 
+                    return true;
+                }
+                
                 var target = $('#' + targetId);
                 [].slice.call($('article.page')).map(function(page){
                     if (page.id !== targetId){
