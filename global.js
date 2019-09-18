@@ -54,6 +54,9 @@ function setUpAboutPageNav() {
             targetEl.scrollIntoView();
         });
     });
+    $('.return-to-top-button').on('click', function () {
+        $('.about-nav')[0].scrollIntoView();
+    });
 }
 
     return {
