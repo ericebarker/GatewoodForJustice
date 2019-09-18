@@ -11,7 +11,7 @@ var globalScript = (function(){
                 });
                 if ($(this).data('action') == 'donate'){
                     window.dataLayer.push({
-                        'event': 'PageView-donate'
+                        'event': 'DonateLink-Clicked'
                     }); 
                     return true;
                 }
