@@ -64,6 +64,9 @@ img.header-slogan {
     color: midnightblue;
     cursor: pointer;    
 }
+.nav-button a {
+    color: midnightblue;
+}
 
 .hamburger-menu {
     display: none;
