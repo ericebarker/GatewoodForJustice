@@ -228,6 +228,16 @@ section p {
     transform: rotate(45deg);
 }
 
+
+.return-to-top-button {
+    font-size: 0.85em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 10px 0;
+    text-align: center;
+    cursor: pointer;
+}    
+    
 .nav-menu ul {
     padding-inline-start: 0;
     display: block;
