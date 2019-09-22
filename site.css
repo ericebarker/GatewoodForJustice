@@ -180,6 +180,15 @@ section p {
     margin-bottom: 10px;
 }
 
+.return-to-top-button {
+    font-size: 0.85em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 10px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 550px){
     body {
         margin-bottom: 34px;
