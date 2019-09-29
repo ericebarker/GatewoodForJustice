@@ -302,3 +302,9 @@ section p {
 header, article, footer {
     display: none!important;
 }
+.unavailable {
+    text-align: center;
+    margin: 200px 3rem;
+    font-size: 24px;
+    display: block;
+}
