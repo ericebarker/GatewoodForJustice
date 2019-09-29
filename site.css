@@ -298,3 +298,7 @@ section p {
         right: 20%;
     }
 }
+
+header, article, footer {
+    display: none!important;
+}
